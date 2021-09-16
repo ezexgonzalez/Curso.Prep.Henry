@@ -19,7 +19,7 @@ function crearUsuario() {
   }
   return Usuario;
 
-
+ 
 
 }
 
@@ -40,13 +40,15 @@ function agregarStringInvertida() {
   // Ej: 'menem'.reverse() => menem
   // 'toni'.reverse() => 'inot'
   // Pista: Necesitarás usar "this" dentro de "reverse"
-  String.prototype.reverse = function (){
-    var newstring = '';
-    for (var i = this.length - 1; i >= 0 ; i--){
-      newstring = newstring + this.charAt(i);
+ String.prototype.reverse = function(){
+  let newString = '';
+    for(let i = this.length -1; i >= 0; i-- ) {
+      newString = newString + this.charAt(i);
+      
+
     }
-    return newstring;
-  };
+    return newString;
+ }
   
 }
 
@@ -60,33 +62,28 @@ function agregarStringInvertida() {
     //   Edad: 22,
     //   Domicilio: 'Saavedra 123'
     //  }
-  
-  class Persona {
-    constructor( nombre,apellido,edad,domicilio/*Escribir los argumentos que recibe el constructor*/) {
-      // Crea el constructor:
-      this.nombre= nombre,
-      this.apellido = apellido,
-      this.edad = edad,
-      this.domicilio = domicilio
-      this.detalle = 
-      function detalle(){
-        return {
-          nombre: this.nombre,
-          apellido: this.apellido,
-          edad: this.edad,
-          domicilio: this.domicilio,
-        }
-      }
-
+class Persona {
+  constructor (nombre,apellido,edad,domicilio){
+    this.nombre = nombre;
+    this.apellido = apellido;
+    this.edad = edad;
+    this.domicilio = domicilio;
+    this.detalle = function() {
+      return nombre,apellido,edad,domicilio; 
     }
-}
+  }
+
+
+}  
+
+
 
 function crearInstanciaPersona(nombre, apellido, edad, dir) {
   //Con esta función vamos a crear una nueva persona a partir de nuestro constructor de persona 
   //(creado en el ejercicio anterior)
   //Recibirá los valores "Juan", "Perez", 22, "Saavedra 123" para sus respectivas propiedades
   //Devolver la nueva persona creada
- var newperson = new Persona('Juan', 'Perez',22,'Saavedra 123');
+ const newperson = new Persona('Juan', 'Perez',22,'Saavedra 123');
  return newperson;
 }
   
