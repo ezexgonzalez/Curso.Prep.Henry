@@ -1,18 +1,50 @@
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
 .divClass h1 {
-    color: #4d3759;
+    color: white;
+    text-align: center;
+
+   
 }
-#thirdDiv #hamburguesa {
-    width: 400px;
+ img {
     
+    width: 400px;
+    position: relative;
+    right: 20px;
 }
 #thirdDiv {
+    margin: auto;
     width: 500px;
     height: 600px;
     background-color: #dc899b;
-    padding: 50px;
-    border: 4mm ridge #714765;
+    padding: 10px;
+    border: 3px solid white;
+    overflow: hidden;
+    
+   
+   
 }
 #spanId {
     font-size: 18px;
     margin: 50px;
+}
+body {
+    background-image: url(https://images.ctfassets.net/ww1ie0z745y7/1a6cvXToLzBpwP2uhFHTWW/7d15a83b89bbb9359c7a44219f0d4f7c/pattern-yellow-desktop.svg);
+    color: white;
+}
+.divClass {
+    width: 600px;
+    margin: auto;
+    text-align: center;
+
+}
+
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
