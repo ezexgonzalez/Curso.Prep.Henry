@@ -302,7 +302,7 @@
     background-color: rgba(255, 255, 255,0.5);  
     
     width: 900px;
-    height: 550px;
+    height: 480px;
     display: flex;
     margin-top: 50px;
     justify-content: center;
@@ -335,6 +335,34 @@
    
 }
 .carrera div ul li span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.footer div{
+    width: 100%;
+    background: #873466;
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+.footer div ul{
+    flex:1; 
+    padding: 0;
+   
+}
+.footer div ul li span{
     display: flex;
     align-items: center;
     justify-content: center;
