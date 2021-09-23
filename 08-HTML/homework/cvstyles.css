@@ -1,0 +1,342 @@
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            
+
+  }
+  body{
+    margin: 0;
+    padding: 0; 
+    background: rgb(236,96,122);
+    background: radial-gradient(circle, rgba(236,96,122,1) 0%, rgba(43,39,76,1) 100%);
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+  }
+.inicio{
+    display: flex;
+    align-items: center;
+    background: #873466;
+     color: white;
+     
+    
+}
+.inicio h2{
+    margin: 0;
+    padding: 10px;
+}
+.inicio ul{
+    
+   flex:1; 
+   text-align: right;
+    
+    
+}
+.inicio ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+}
+.inicio ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.text-container1{
+    color: white;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   flex-direction: column;
+    
+}
+.text-container1 h1{
+    font-size: 80px;
+    padding: 10px;
+    margin: 30px 0 20px;
+    display: inline-block;
+    
+}
+.text-container1 p{
+   
+    margin: 0;
+   
+    font-size: 20px;
+
+}
+.experiencias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+.experiencias div {
+    background-color: rgba(255, 255, 255,0.5);  
+    
+    width: 500px;
+    height: 200px;
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    border: 1px solid white;
+    
+    
+}
+.experiencias ul{
+    flex:1; 
+    padding: 0;
+   
+}
+.experiencias ul li{
+    padding: 0;
+    list-style: none;
+    margin-bottom: 20px;
+    font-size: 20px;
+    
+
+   
+}
+.experiencias ul li span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.experiencias div h3{
+    margin: 0;
+    padding: 10px;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.educacion-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+.educacion-container div {
+    background-color: rgba(255, 255, 255,0.5);  
+    
+    width: 700px;
+    height: 300px;
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    border: 1px solid white;
+    
+    
+}
+.educacion-container div h3{
+    
+    margin: 0;
+    padding: 10px;
+    font-size: 30px;
+    padding-top: 20px;
+}
+.educacion-container div ul{
+    flex:1; 
+    padding: 0;
+   
+}
+.educacion-container div ul li{
+    padding: 0;
+    list-style: none;
+    margin-bottom: 20px;
+    font-size: 20px;
+    
+
+   
+}
+.educacion-container div ul li span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skills-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+.skills-container div {
+    background-color: rgba(255, 255, 255,0.5);  
+    
+    width: 500px;
+    height: 250px;
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    border: 1px solid white;
+    
+    
+}
+.skills-container div h3{
+    
+    margin: 0;
+    padding: 10px;
+    font-size: 30px;
+    padding-top: 20px;
+}
+.skills-container div ul{
+    flex:1; 
+    padding: 0;
+   
+}
+.skills-container div ul li{
+    padding: 0;
+    list-style: none;
+    margin-bottom: 20px;
+    font-size: 20px;
+    
+
+   
+}
+.skills-container div ul li span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foto{
+    display: flex;
+    justify-content: right;
+   
+    
+}
+.foto div{
+    margin: 0;
+    padding: 0;
+    border: 3px solid white;
+    display: flex;
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    bottom: 700px;
+    left: 40px;
+    overflow: hidden;
+   
+}
+
+.foto img{
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    
+    
+}
+
+.hobbies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+.hobbies div {
+    background-color: rgba(255, 255, 255,0.5);  
+    
+    width: 500px;
+    height: 250px;
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    border: 1px solid white;
+    
+    
+}
+.hobbies div h3{
+    
+    margin: 0;
+    padding: 10px;
+    font-size: 30px;
+    padding-top: 20px;
+}
+.hobbies div ul{
+    flex:1; 
+    padding: 0;
+   
+}
+.hobbies div ul li{
+    padding: 0;
+    list-style: none;
+    margin-bottom: 20px;
+    font-size: 20px;
+    
+
+   
+}
+.hobbies div ul li span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carrera {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+.carrera div {
+    background-color: rgba(255, 255, 255,0.5);  
+    
+    width: 900px;
+    height: 550px;
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    border: 1px solid white;
+    
+    
+}
+.carrera div h3{
+    
+    margin: 0;
+    padding: 10px;
+    font-size: 30px;
+    padding-top: 20px;
+}
+.carrera div ul{
+    flex:1; 
+    padding: 0;
+   
+}
+.carrera div ul li{
+    padding: 0;
+    list-style: none;
+    margin-bottom: 20px;
+    font-size: 20px;
+    
+
+   
+}
+.carrera div ul li span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
